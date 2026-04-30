@@ -1,5 +1,8 @@
 body {
-    background-color: #f5f5f0;
+    font-weight: 900;
+    height: auto;
+    background-image:url(https://i.pinimg.com/736x/8d/23/cb/8d23cba0893c47272f53fb1e8886126f.jpg) ;
+    padding-top: 80px;
 }
 
 nav {
@@ -11,9 +14,9 @@ nav {
     height: 100px;
 }
 
-.img-logo{
-    width: 100px;
-    height: 100px;
+.img-logo {
+    width: 50px;
+    height: auto;
 }
 
 .navbar-nav .nav-link {
@@ -23,10 +26,44 @@ nav {
     padding: 6px 12px;
     transition: 0.3s;
 }
-.navbar-nav:hover{
+
+.navbar-nav .nav-link:hover {
     transform: scale(1.05);
 }
+
 .navbar-toggler:hover {
     background-color: #2c2c2c;
     border-color: #f5f5f0;
 }
+main{
+    margin: 0;
+    padding: 0;
+}
+.recuadro {
+    width: 100%;
+    min-height:400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding: 60px 40px;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.recuadro-1 {
+    background-image: url(https://i.pinimg.com/736x/5c/b6/56/5cb6564e46ded3cdd634ae9575de0d4a.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 500px;
+}
+.recuadro-1 .recuadro {
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0);
+    position: relative;
+    z-index: 1;
+     }
