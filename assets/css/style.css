@@ -1,7 +1,7 @@
 body {
     font-weight: 900;
     height: auto;
-    background-image:url(https://i.pinimg.com/736x/8d/23/cb/8d23cba0893c47272f53fb1e8886126f.jpg) ;
+    background-color: #3d5c3d;
     padding-top: 80px;
 }
 
@@ -71,27 +71,52 @@ main{
     position: relative;
     z-index: 1;
 }
- .card{
+.row{
+    align-items: stretch;
+}
+.card{
     display: flex;
     flex-direction: column;
     height: 100%;
-    border-radius: 15px;
+    border-radius: 0;
     transition: all 0.3s ease;
-    background-color:white;
- }
- .card:hover{
+    background-color: white;
+}
+.card:hover{
     transform: translateY(-8px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important; 
- }
- 
- .card-title .card-body a{
-color: #1a5c2a !important;
-text-decoration: none;
-margin-bottom: 15px;
-display: block;
-font-weight: bold;
- }
- .card-text{
-    line-height: 1.6;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
+.card-body{
+   display: flex;
+   flex: 1;
+   flex-direction: column;
+}
+.card-body a{
+    color: #1a5c2a;
+    text-decoration: none;
+    margin-bottom: 12px;
+    display: block;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.card-body p{
     font-size: 0.95rem;
- }
+    color: #2c2c2c;
+    line-height: 1.6;
+    flex: 1;
+}
+.recuadro-1{border-left: 5px solid #1a5c2a;}
+.recuadro-2{border-left: 5px solid #c8a84b;}
+.recuadro-3{border-left: 5px solid #2e8b4a;}
+.recuadro-4{border-left: 5px solid #4caf72;}
+.footer{
+    background-color: #1a5c2a;
+    color: #f5f5f0;
+}
+.footer img{
+    width: 50px;
+    height: auto;
+}
+.footer :hover link{
+color: #c8a84b;
+}
