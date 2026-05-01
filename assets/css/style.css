@@ -136,6 +136,7 @@ main {
 .footer {
     background-color: #1a5c2a;
     color: #f5f5f0;
+    height: auto;
 }
 
 .footer img {
