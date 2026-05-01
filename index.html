@@ -15,15 +15,12 @@
         <nav class="navbar navbar-expand-lg fixed-top">
             <img class="navbar-brand img-logo"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyanMwiIFnN4VZ8-yzxD-HX8sy6KYToZrGkg&s"
-                alt="logo"> 
-                <span class="nombre-instituto">Instituto Politécnico Formosa</span>
-                <button class="navbar-toggler" type="button"
-                    data-bs-toggle="colapse"
-                    data-bs-targe="#navbarMenu">
-<span class="navbar-toggler-icon"></span>
-                </button>
-            <span class="navbar-toggler-icon"></span>
-            <div class="navbar-collapse ms-auto py-2">
+                alt="logo">
+            <span class="nombre-instituto ms-auto">Instituto Politécnico Formosa</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse ms-auto py-2" id="navbarMenu">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
                     <li class="nav-item"><a class="nav-link" href="institucional.html">institucional</a></li>
@@ -32,16 +29,56 @@
                 </ul>
             </div>
         </nav>
-          </header>
-        <main class="container-fluid px-0">
-            <div class="recuadro recuadro-1">
-                <h2>Bienevenidos al isntituto politécnico</h2>
-                <p>Tu futuro comienza aquí. Formación de Calidad en Tecnología.</p>
-               <button class="btn btn-danger"><a href="carreras.html">Explorar carreras</a> </button>
-               <button class="btn btn-danger"><a href=""></a>Incribirse ahora</button>
+    </header>
+    <main class="container-fluid px-0">
+        <div class="recuadro recuadro-hero">
+            <h2>Bienevenidos al isntituto politécnico</h2>
+            <p>Tu futuro comienza aquí. Formación de Calidad en Tecnología.</p>
+            <div class="d-flex gap-3 mt-3">
+                <a class="btn btn-danger" href="carreras.html">Explorar carreras</a>
+                <a class="btn btn-danger" href="contacto.html">Incribirse ahora</a>
             </div>
-        </main>
-       
+        </div>
+        <div class="container my-5">
+            <div class="row g-4">
+                <section class="col-md-6 d-flex">
+                    <div class="d-flex flex-column card h-100 shadow-sm border-0 recuadro-1">
+                    <div class="p-4 card-body">
+                        <a class="card-title h2 text-primary" href="index.html">Bienvenidos</a>
+                        <p>Le damos la bievenida a la pagina oficial del instituto politecnico Formosa. Es de nuestro
+                            agrado proporcionarle informacion esperando que sea valiosa.</p>
+                </div>
+                </section>
+                <section class="col-md-6 d-flex flex-column card h-100 shadow-sm border-0 recuadro-2">
+                    <div class=" py-4 card-body">
+                        <a class="h2 card-title" href="carreras.html">NUESTRAS CARRERAS</a>
+                        <p>En este momento nuestro catalogo de carrera es: desarrollo de software multiplataforma,
+                            Mecatronica, Telecomunicaciones y Quimica industrial</p>
+                    </div>
+                </section>
+                <section class="col-md-6 d-flex flex-column card h-100 shadow-sm border-0 recuadro-3">
+                    <div class=" py-4 card-body">
+                        <a class="h2 card-title" href="institucional.html">Informacion y ultimas noticias</a>
+                        <p>En este apartado usted podra encontrar informacion sobre nuestras incripcione, pautas y
+                            ultimas noticias</p>
+                    </div>
+                </section>
+                <section class="col-md-6 d-flex flex-column card h-100 shadow-sm border-0 recuadro-4">
+                    <div class=" py-4 card-body">
+                        <a class="h2 card-title" href="contacto.html">Incripcion y contacto</a>
+                        <p>Es de nuestro agrado poder responder sus consultas y de igual manera, tambien esperamos su
+                            inscripcion</p>
+                    </div>
+                </section>
+            </div>
+            <h3>Desde ya muchas gracias</h3>
+    </main>
+    <footer class="footer">
+        <ul>
+            <li>º2026 IPF</li>
+            <p>Ruta Nacional 81, Kilómetro 1190</p>
+        </ul>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
