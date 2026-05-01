@@ -147,13 +147,15 @@ main {
 .footer :hover link {
     color: #c8a84b;
 }
-.carousel-wrapper{
+
+.carousel-wrapper {
     max-width: 400px;
     margin: 1.5rem auto;
     border-radius: 12px;
     overflow: hidden;
- }
- .carousel-item img{
+}
+
+.carousel-item img {
     height: 240px;
     object-fit: cover;
     object-position: center;
