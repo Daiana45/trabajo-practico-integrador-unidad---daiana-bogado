@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/institucional.css">
+    <link rel="stylesheet" href="assets/css/contacto.css">
     <title>Document</title>
 </head>
 
@@ -38,6 +38,11 @@
         </nav>
     </header>
 <body>
+    <!-- ========================================================
+     seccion formulario: usamos el componente form de Bootstrap
+     para que los interesados puedan enviar consultas al IPF.
+     Incluye nombre, email, carrera de interés y mensaje.
+     ======================================================== -->
     <section class="seccion-formulario py-5">
         <div class="container">
             <h2 class="text-center mb-4">Formulario de consulta</h2>
@@ -72,6 +77,12 @@
             </div>
         </div>
     </section>
+    <!-- ========================================================
+     seccion contacto: usamos list-group de Bootstrap
+     para mostrar teléfono, email, dirección y redes sociales
+     del instituto de forma clara y ordenada.
+     ======================================================== -->
+
     <section class="seccion-datos py-5">
         <div class="container">
             <h2 class="text-center mb-4">Datos de contacto</h2>
@@ -108,6 +119,12 @@
             </div>
         </div>
     </section>
+    <!-- ========================================================
+     seccion mapa: usamos un iframe de Google Maps para mostrar
+     la ubicación exacta del instituto de forma interactiva.
+     El atributo loading="lazy" mejora la performance de carga.
+     ======================================================== -->
+
     <section class="seccion-mapa py-5">
         <div class="container">
             <h2 class="text-center mb-4">Ubicación</h2>
@@ -117,6 +134,13 @@
                 </div>
             </div>
     </section>
+    <!-- ========================================================
+     seccion horario: usamos una tabla de Bootstrap con
+     table-bordered y table-hover para mostrar los días y
+     horarios de atención de forma clara. El thead tiene
+     fondo verde institucional definido en el CSS.
+     ======================================================== -->
+
     <section class="section-horario py-5">
         <div class="container">
             <h2 class="text-center mb-4">Horarios de atención</h2>
@@ -142,7 +166,7 @@
         </div>
     </section>
  <!-- ====================================================
-     FOOTER: pie de página con logo, copyright, links a redes
+     FOOTER: pie de página con logo, links a redes
      sociales (Instagram y Facebook con íconos SVG de Bootstrap)
      y la dirección física del instituto.
      ==================================================== -->

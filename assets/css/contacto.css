@@ -1,0 +1,158 @@
+body {
+    font-weight: 900;
+    height: auto;
+    background-color: #f5f5f0 !important;
+    padding-top: 80px;
+}
+
+/* ====================================================
+   NAVBAR: fondo verde institucional, links dorados con
+   transición hover, logo y nombre del instituto.
+   ==================================================== */
+nav {
+    background-color: #1a5c2a;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    letter-spacing: normal;
+    box-shadow: #2e8b4a 50px;
+    height: 100px;
+}
+
+.img-logo {
+    width: 50px;
+    height: auto;
+}
+.navbar-collapse{
+    background-color: #1a5c2a;
+    padding: 0.5rem 1rem;
+}
+.navbar-nav .nav-link {
+    color: #c8a84b !important;
+    border-color: #4caf72;
+    border-radius: 8px;
+    padding: 6px 12px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.nombre-instituto {
+    color: #c8a84b;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    transform: scale(1.05);
+}
+
+.navbar-toggler:hover {
+    background-color: #2c2c2c;
+    border-color: #f5f5f0;
+}
+/* ====================================================
+   FORMULARIO: botón enviar verde con hover dorado,
+   y borde verde en inputs al hacer foco.
+   ==================================================== */
+
+.seccion-formulario{
+    background-color: #f5f5f0;
+}
+.btn-enviar{
+    background-color: #1a5c2a;
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.btn-enviar:hover{
+    background-color: #c8a84b;
+    color: #1a1a1e;
+}
+.form-control:focus,
+.form-control:focus{
+    border-color: #1a5c2a;
+    box-shadow: 0, 0, 0, 0.2rem rgba(26, 92, 42, 0.25);
+}
+/* ====================================================
+   DATOS DE CONTACTO: borde izquierdo verde en cada item
+   del list-group y links con color institucional y hover dorado.
+   ==================================================== */
+
+.seccion-datos{
+    background-color: #f8f9fa;
+}
+.seccion-datos .list-group-item{
+    border-left: 4px solid #1a5c2a;
+    font-size: 0.95rem;
+}
+.link-contacto {
+    color: #1a5c2a;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.link-contacto:hover {
+    color: #c8a84b;
+}
+/* ====================================================
+   MAPA: iframe a ancho completo con bordes redondeados
+   y sombra suave. loading="lazy" mejora la performance.
+   ==================================================== */
+
+.seccion-mapa {
+    background-color: #ffffff;
+}
+
+.mapa {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+/* ====================================================
+   HORARIOS: encabezado de tabla verde institucional
+   y fondo dorado suave al hacer hover en cada fila.
+   ==================================================== */
+
+.seccion-horarios {
+    background-color: #f8f9fa;
+}
+
+.seccion-horarios thead {
+    background-color: #1a5c2a;
+    color: #ffffff;
+}
+
+.seccion-horarios .table-hover tbody tr:hover {
+    background-color: #fff3cd;
+}
+/* ====================================================
+   FOOTER: fondo verde igual al navbar para consistencia,
+   texto claro, tamaño del logo y color de links al hacer hover.
+   ==================================================== */
+.footer {
+    background-color: #1a5c2a;
+    color: #f5f5f0;
+    height: auto;
+    padding: 1rem 2rem;
+}
+.footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.footer img {
+    width: 50px;
+    height: auto;
+}
+
+.footer :hover link {
+    color: #c8a84b;
+}
